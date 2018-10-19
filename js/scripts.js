@@ -10,13 +10,15 @@ $(document).ready(function(){
       $("#ruby").show()
     }else if (userskill >= 2){
       $("#c-sharp").show()
+      $("#c-sharp").html(" c-sharp <img src='img/cc.png' alt='code language'>");
     }
     if ((userage >= 40) && (userskill <= 1)){
       $("#html").show()
+      $("#html").html(" html <img src='img/html.png' alt='code language'>");
     }else if ((userage <= 50) && (userskill > 1) && (usergender === 'female')){
       $("#java").show()
       $("#c-sharp").hide()
-
+$("#java").html(" javascript <img src='img/java.jpg' alt='asdfasdf'>");
     }
 
 
