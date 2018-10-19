@@ -9,7 +9,9 @@
   <title>survey</title>
 </head>
 <body>
-  <h2>survey for epicodus tracks</h2>
+  <div class="container">
+    <h2 class="jumbotron">survey for epicodus tracks</h2>
+  </div>
   <div class="container">
     <form id="survey" >
 
@@ -43,31 +45,53 @@
     <br>
   </form>
   <div class="container">
-    <!-- <form id="results" > -->
+    <form id="results" > -->
 
-      <h2>This is the best option we think is for you:</h2>
-      <ul>
-        <li id="c-sharp">C#</li>
-        <li id="ruby">RUBY</li>
-        <li id="java">JAVA</li>
-        <li id="html">HTML</li>
-      </ul>
-    <!-- </form> -->
+    <h2 class="jumbotron">This is the best option we think is for you:</h2>
+    <ul>
+      <li id="c-sharp">C#</li>
+      <li id="ruby">RUBY</li>
+      <li id="java">JAVA</li>
+      <li id="html">HTML</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    <h1 class="jumbotron">Appointments</h1>
 
-
-  </div>
-
-</div>
-
-
-
-
-
+    <div class="container">
 
 
+      <form class="counsler">
+
+        <span class="input-group-text" id="basic-addon1">Name</span>
+        <input type="text" id="name">
+        <div class="form-group">
+          <label for="dates">Date of appointments:</label>
+          <input id="dates" class="form-control" type="date">
+        </div>
+        <button type="submit" name="button">enter</button>
+      </form>
+
+    </div>
+    <div class="container">
+
+
+      <div id="outputAppointment">
+
+        <p><span id="userName"></span>, This is your appointment information</p>
+
+
+        <p>This is the  next available appointment: The date <span id="appointmentDate"></span> </p>
+      </div>
+    </div>
 
 
 
 
 </body>
+
 </html>

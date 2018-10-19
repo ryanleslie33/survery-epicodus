@@ -1,5 +1,5 @@
 #results{
-  display:none;
+  display:show;
 }
 #java{
   display:none;
@@ -12,4 +12,8 @@
 }
 #html{
   display:none;
+}
+
+#outputAppointment {
+  display: none;
 }
