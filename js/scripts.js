@@ -5,9 +5,9 @@ $(document).ready(function(){
     var userage = parseInt($("#age").val());
     var usergender = $("#gender").val();
     var userskill = parseInt($("#skill").val());
-    if (usergender === 'male' && userage <= 30){
-      $("#java").text("javascript");
-      $("#results").show()
+    if ((usergender === 'male') && (userage === 30)){
+
+      $("#java").show()
     }
     });
   });
