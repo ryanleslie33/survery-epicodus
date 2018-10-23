@@ -2,6 +2,8 @@ $(document).ready(function(){
   $("#survey").submit(function(event){
     event.preventDefault();
 
+
+
     var userage = parseInt($("#age").val());
     var usergender = $("#gender").val();
     var userskill = parseInt($("#skill").val());
@@ -19,6 +21,7 @@ $(document).ready(function(){
     }else if ((userage <= 50) && (userskill > 1) && (usergender === 'female')){
       $("#java").show()
       $("#c-sharp").hide()
+      $("#ruby").hide();
 $("#java").html(" javascript <img src='img/java.jpg' alt='asdfasdf'>");
     }
     if ((school >= 4) && (userskill >= 4)){
